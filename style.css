@@ -1,0 +1,71 @@
+/* Estilo geral do corpo (fundo preto do Visual Studio) */
+body {
+    background-color: #1e1e1e; /* Cor preta escura similar ao VS Code */
+    color: #ffffff; /* Cor do texto padrão branca */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte amigável */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+/* Estilo do cabeçalho (título Re:Zero) */
+header {
+    background-color: #ff0000; /* Fundo vermelho */
+    padding: 20px 40px;
+    margin-bottom: 40px;
+    border-radius: 8px; /* Cantos levemente arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para profundidade */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.5em; /* Tamanho grande do título */
+    color: #ffffff; /* Cor do texto do título branca */
+    margin: 0;
+    text-transform: uppercase; /* Deixa o texto em maiúsculas */
+    letter-spacing: 3px; /* Espaçamento entre letras */
+}
+
+/* Estilo para as galerias de fotos */
+.gallery-medium,
+.gallery-large {
+    display: flex;
+    flex-wrap: wrap; /* Quebra linha se as imagens não couberem */
+    justify-content: center; /* Centraliza as imagens */
+    gap: 20px; /* Espaço entre as imagens */
+    margin-bottom: 40px; /* Espaço abaixo de cada galeria */
+    width: 100%; /* Ocupa a largura total disponível */
+    max-width: 1200px; /* Largura máxima para a galeria */
+}
+
+/* Estilo para as imagens médias */
+.gallery-medium img {
+    width: 200px; /* Largura média */
+    height: 150px; /* Altura média */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    border: 3px solid #ff0000; /* Borda vermelha */
+    border-radius: 5px; /* Cantos levemente arredondados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out; /* Animação suave ao passar o mouse */
+}
+
+.gallery-medium img:hover {
+    transform: scale(1.05); /* Aumenta um pouco a imagem ao passar o mouse */
+}
+
+/* Estilo para as imagens grandes */
+.gallery-large img {
+    width: 300px; /* Largura grande */
+    height: 225px; /* Altura grande */
+    object-fit: cover;
+    border: 5px solid #ff0000; /* Borda vermelha mais grossa para imagens grandes */
+    border-radius: 8px; /* Cantos um pouco mais arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery-large img:hover {
+    transform: scale(1.03);
+}
