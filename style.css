@@ -16,7 +16,7 @@ header {
     width: 1278px; ;
     height: 149px; ;
     margin-bottom: 40px;
-    border-radius: 8px; /* Cantos levemente arredondados */
+    border-radius: 32px; /* Cantos levemente arredondados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para profundidade */
     text-align: center;
 }
