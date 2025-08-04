@@ -42,8 +42,8 @@ header h1 {
 
 /* Estilo para as imagens médias */
 .gallery-medium img {
-    width: 200px; /* Largura média */
-    height: 150px; /* Altura média */
+    width: 232px; /* Largura média */
+    height: 131px; /* Altura média */
     object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
     border: 3px solid #ff0000; /* Borda vermelha */
     border-radius: 5px; /* Cantos levemente arredondados */
