@@ -13,7 +13,8 @@ body {
 /* Estilo do cabeçalho (título Re:Zero) */
 header {
     background-color: #ff0000; /* Fundo vermelho */
-    padding: 20px 40px;
+    width: 1278px; ;
+    height: 149px; ;
     margin-bottom: 40px;
     border-radius: 8px; /* Cantos levemente arredondados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para profundidade */
